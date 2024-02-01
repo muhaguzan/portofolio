@@ -1,467 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhaguzan</title>
-    <link rel="icon" href="./img/mgf.jpg" />
-    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="icon" href="./img/mgf.jpg">
+    <link href="./src/output.css" rel="stylesheet">
     <style>
-      html {
-        scroll-behavior: smooth;
-      }
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
+    
     <!-- Header start -->
-    <header
-      class="bg-transparent shadow-md absolute top-0 left-0 w-full flex items-center z-10"
-    >
-      <div class="container">
-        <div class="flex items-center justify-between relative">
-          <div class="px-4">
-            <a href="#home" class="font-bold text-lg text-sky-400 block py-6"
-              >Muhammad Gusti Fauzan</a
-            >
-          </div>
-          <div class="flex items-center px-4">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="block absolute right-4 lg:hidden"
-            >
-              <span
-                class="hamburger-line transition duration-300 origin-top-left"
-              ></span>
-              <span class="hamburger-line transition duration-300"></span>
-              <span
-                class="hamburger-line transition duration-300 origin-bottom-left"
-              ></span>
-            </button>
+    <header class="bg-transparent shadow-md absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 ">
+                    <a href="#home" class="font-bold text-lg text-sky-400  block py-6">Muhammad Gusti Fauzan</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300"></span>
+                        <span class="hamburger-line transition duration-300 origin-bottom-left"></span>
+                    </button>
 
-            <nav
-              id="navmenu"
-              class="hidden absolute py-5 right-4 top-full bg-white shadow-lg rounded-lg max-w-[250px] w-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
-            >
-              <ul class="block lg:flex">
-                <li class="group">
-                  <a
-                    href="#home"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400"
-                    >Beranda</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#about"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400"
-                    >Tentang Saya</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#portofolio"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400"
-                    >Portofolio</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#contact"
-                    class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
+                    <nav id="navmenu" class="hidden absolute py-5 right-4 top-full bg-white shadow-lg rounded-lg max-w-[250px] w-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400 ">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-400">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
-
+    
     <!-- home section start -->
     <section id="home" class="pt-36">
-      <div class="container">
+    <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
-            <h1
-              class="text-base font-semibold text-slate-600 md:text-xl lg:text-2xl"
-            >
-              Hi, Saya<span
-                class="block font-bold text-slate-900 text-2xl mt-1 lg:text-3xl"
-                >Muhammad Gusti Fauzan</span
-              >
-            </h1>
-            <h2 class="font-semibold text-slate-500 text-lg mb-5 lg:text-xl">
-              Data Operator
-            </h2>
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-slate-600 md:text-xl lg:text-2xl">Hi, Saya<span class="block font-bold text-slate-900 text-2xl mt-1 lg:text-3xl">Muhammad Gusti Fauzan</span></h1>
+                <h2 class="font-semibold text-slate-500 text-lg mb-5 lg:text-xl">Data Operator</h2>
 
-            <a
-              href="#contact"
-              class="text-base font-semibold text-white bg-sky-400 py-3 px-8 rounded-full hover:shadow-lg hover:bg-blue-400 transition duration-300 ease-in-out"
-              >Hubungi Saya</a
-            >
-          </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="mt-10 relative lg:mt-0 lg:right-0">
-              <img src="img/foto2.jpg" alt="Gusti" class="max-w-full mx-auto" />
+                <a href="#contact" class="text-base font-semibold text-white bg-sky-400 py-3 px-8 rounded-full hover:shadow-lg hover:bg-blue-400 transition duration-300 ease-in-out">Hubungi Saya</a>
             </div>
-          </div>
-        </div>
-      </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="mt-10 relative lg:mt-0 lg:right-0">
+                    <img src="img/foto2.jpg" alt="Gusti" class="max-w-full mx-auto">
+                </div>
+            </div>
+        </div>          
+    </div>    
     </section>
 
     <!-- About start -->
     <section id="about" class="pt-36 pb-32">
-      <div class="container">
-        <div class="flex flex-wrap text-center justify-center">
-          <div class="px-4 mb-10 lg:w-1/2">
-            <h4 class="font-bold uppercase text-sky-400 text-lg mb-1">
-              Tentang saya
-            </h4>
-            <p class="font-medium text-base text-slate-500">
-              Saya adalah seorang lulusan Smk Media Informatika dengan jurusan
-              <span class="font-semibold">Rekayasa Perangkat Lunak</span> yang
-              bertanggung jawab dan disiplin. saya memiliki beberapa keahlian
-              diantaranya
-              <span class="font-semibold"
-                >Basic SQL, TailwindCSS dan HTML5</span
-              >
-              seorang yang cekatan dan terbiasa datang tepat waktu serta
-              mengikuti perkembangan teknologi dengan baik.
-            </p>
-            <div class="flex items-center justify-center mt-4">
-              <!-- ig -->
-              <a
-                href="https://www.instagram.com/muhaguzan?igsh=MTg1eGNwMTlnMDAzZA=="
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-700 text-slate-700 hover:border-sky-600 hover:bg-sky-400 hover:text-white"
-                ><svg
-                  role="img"
-                  width="20"
-                  class="fill-current"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>Instagram</title>
-                  <path
-                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
-                  />
-                </svg>
-              </a>
-              <!-- Linkedin -->
-              <a
-                href="https://www.linkedin.com/in/muhammad-gusti-fauzan-b38793275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-700 text-slate-700 hover:border-sky-600 hover:bg-sky-400 hover:text-white"
-                ><svg
-                  role="img"
-                  width="20"
-                  class="fill-current"
-                  viewBox="0 0 24 24"
-                >
-                  xmlns="http://www.w3.org/2000/svg">
-                  <title>LinkedIn</title>
-                  <path
-                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                  />
-                </svg>
-              </a>
-              <!-- Github -->
-              <a
-                href="https://github.com/muhaguzan/portofolio"
-                target="_blank"
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-700 text-slate-700 hover:border-sky-600 hover:bg-sky-400 hover:text-white"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  class="fill-current"
-                  viewBox="0 0 16 16"
-                  id="github"
-                >
-                  <path
-                    d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
+        <div class="container">
+            <div class="flex flex-wrap text-center justify-center">
+                <div class=" px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-sky-400 text-lg mb-1">Tentang saya</h4>
+                    <p class="font-medium text-base text-slate-500">Saya adalah seorang lulusan Smk Media Informatika dengan jurusan <span class="font-semibold">Rekayasa Perangkat Lunak</span> yang bertanggung jawab dan disiplin. saya memiliki beberapa keahlian diantaranya <span  class="font-semibold">Basic SQL, TailwindCSS dan HTML5</span> seorang yang cekatan dan terbiasa datang tepat waktu serta mengikuti perkembangan teknologi dengan baik.</p>
+                    <div class="flex items-center justify-center mt-4">
+                            <!-- ig -->
+                            <a href="https://www.instagram.com/muhaguzan?igsh=MTg1eGNwMTlnMDAzZA==" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-700 text-slate-700 hover:border-sky-600 hover:bg-sky-400 hover:text-white"><svg role="img"  width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                            </a>
+                            <!-- Linkedin -->
+                            <a href="https://www.linkedin.com/in/muhammad-gusti-fauzan-b38793275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-700 text-slate-700 hover:border-sky-600 hover:bg-sky-400 hover:text-white"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"> xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </a>
+                            <!-- Github -->
+                            <a href="https://github.com/muhaguzan/portofolio" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-700 text-slate-700 hover:border-sky-600 hover:bg-sky-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="25" class="fill-current" viewBox="0 0 16 16" id="github"><path d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"></path></svg>
+                            </a>
+                    </div>
+                </div>
+            </div>  
         </div>
-      </div>
     </section>
 
     <!-- portofolio -->
     <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
-      <div class="container">
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-14">
-            <h4 class="font-semibold text-3xl text-sky-400">Portofolio</h4>
-            <h2 class="font-bold text-2xl text-slate-900">Sertifikat</h2>
-          </div>
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-14">
+                    <h4 class="font-semibold text-3xl text-sky-400 ">Portofolio</h4>
+                    <h2 class="font-bold text-2xl text-slate-900">Sertifikat</h2>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/webinar.png" alt="webinar" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-black text-xl mt-5 mb-3 ">Webinar perkenalan dengan sql</h3>
+                    <p class="font-md text-base text-slate-600">Saat mengikuti webinar ini saya diberi keterangan mengenai apa itu SQL, fungsi, dan cara kerjanya serta latihan membuat database menggunaka MySQL. </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/ukbi.png" alt="webinar" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-black text-xl mt-5 mb-3 ">Ujian Kemahiran Berbahasa Indonesia</h3>
+                    <p class="font-md text-base text-slate-600">Saat saya masih bersekolah di smk saya memilik kesempatan untuk ikut serta dalam ujian kemahiran berbahasa indonesia (UKBI) yang diselenggarakan oleh kemdikbud, Saat pelaksanaan ujian tersebut terdapat 4 materi yang diuji yaitu mendengarkan, menulis, membaca dan berbicara.
+                    </p>
+                </div>
+                <div class="mb-5 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/lsp.jpg" alt="webinar" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-black text-xl mt-5 mb-3 ">Ujian Sertifikasi Kompetensi</h3>
+                    <p class="font-md text-base text-slate-600">Saat memasuki tahun akhir pelajaran saya mengikuti ujian LSP (Lembaga Sertifikasi Profesi) disitu saya diminta untuk memilih 2 bahan ujian yaitu ujian berbasis web ataupun berbasis dekstop lalu saya memilih ujian berbasis dekstop, Ujian berbasis desktop membuat suatu aplikasi stok barang dengan menggunakan Microsoft Virtual Studio dengan bahasa pemrograman Visual Basic. </p>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-500"></div>
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-14">
+                    <h2 class="font-bold text-2xl text-slate-900">Project</h2>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:mx-auto">
+                <div class="mb-5 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/project1.png" alt="webinar" width="w-full">
+                    </div>
+                    <h1 class="text-xl font-bold mt-2">Taberuu</h1>
+                <div class="flex gap-2 flex-wrap">
+                    <p class="border-2 p p-2 border-gray text-sm text-center font-semibold text-black mt-5 mb-3 ">HTML5</p>
+                    <p class="border-2 p p-2 border-gray text-sm text-center font-semibold text-black mt-5 mb-3 ">TailwindCSS</p>
+                </div>
+                </div>
+            </div>
         </div>
-        <div
-          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
-        >
-          <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="img/webinar.png" alt="webinar" width="w-full" />
-            </div>
-            <h3 class="font-semibold text-black text-xl mt-5 mb-3">
-              Webinar perkenalan dengan sql
-            </h3>
-            <p class="font-md text-base text-slate-600">
-              Saat mengikuti webinar ini saya diberi keterangan mengenai apa itu
-              SQL, fungsi, dan cara kerjanya serta latihan membuat database
-              menggunaka MySQL.
-            </p>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="img/ukbi.png" alt="webinar" width="w-full" />
-            </div>
-            <h3 class="font-semibold text-black text-xl mt-5 mb-3">
-              Ujian Kemahiran Berbahasa Indonesia
-            </h3>
-            <p class="font-md text-base text-slate-600">
-              Saat saya masih bersekolah di smk saya memilik kesempatan untuk
-              ikut serta dalam ujian kemahiran berbahasa indonesia (UKBI) yang
-              diselenggarakan oleh kemdikbud, Saat pelaksanaan ujian tersebut
-              terdapat 4 materi yang diuji yaitu mendengarkan, menulis, membaca
-              dan berbicara.
-            </p>
-          </div>
-          <div class="mb-5 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="img/lsp.jpg" alt="webinar" width="w-full" />
-            </div>
-            <h3 class="font-semibold text-black text-xl mt-5 mb-3">
-              Ujian Sertifikasi Kompetensi
-            </h3>
-            <p class="font-md text-base text-slate-600">
-              Saat memasuki tahun akhir pelajaran saya mengikuti ujian LSP
-              (Lembaga Sertifikasi Profesi) disitu saya diminta untuk memilih 2
-              bahan ujian yaitu ujian berbasis web ataupun berbasis dekstop lalu
-              saya memilih ujian berbasis dekstop, Ujian berbasis desktop
-              membuat suatu aplikasi stok barang dengan menggunakan Microsoft
-              Virtual Studio dengan bahasa pemrograman Visual Basic.
-            </p>
-          </div>
-        </div>
-        <div class="w-full pt-10 border-t border-slate-500"></div>
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-14">
-            <h2 class="font-bold text-2xl text-slate-900">Project</h2>
-          </div>
-        </div>
-        <div class="w-full px-4 flex flex-wrap justify-center xl:mx-auto">
-          <div class="mb-5 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="img/project1.png" alt="webinar" width="w-full" />
-            </div>
-            <h1 class="text-xl font-bold mt-2">Taberuu</h1>
-            <div class="flex gap-2 flex-wrap">
-              <p
-                class="border-2 p p-2 border-gray text-sm text-center font-semibold text-black mt-5 mb-3"
-              >
-                HTML5
-              </p>
-              <p
-                class="border-2 p p-2 border-gray text-sm text-center font-semibold text-black mt-5 mb-3"
-              >
-                TailwindCSS
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="pt-36 pb-32">
-      <div class="container">
-        <div class="w-full px-4">
-          <div class="max-w-lg mx-auto text-center mb-16">
-            <h4 class="font-semibold text-2xl text-sky-400 mb-2">
-              Hubungi Saya
-            </h4>
-            <p class="font-medium text-md text-slate-600 md:text-lg">
-              Jika Memiliki saran ataupun terdapat pesan yang ingin disampaikan
-              boleh nih isi di bawah ini. Terimakasih
-            </p>
-          </div>
-        </div>
-        <div
-          class="max-w-lg mx-auto p-4 mb-4 text-sm text-white rounded-lg bg-sky-400 hidden myalert"
-          role="alert"
-        >
-          <span class="font-bold font-none">Terimakasih!</span> Pesan anda sudah
-          saya terima.
-        </div>
-        <form name="contact-form">
-          <div class="lg:w-2/3 w-full mx-auto">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-lg mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-2xl text-sky-400 mb-2">Hubungi Saya</h4>
+                    <p class="font-medium text-md text-slate-600 md:text-lg">Jika Memiliki saran ataupun terdapat pesan yang ingin disampaikan boleh nih isi di bawah ini. Terimakasih</p>
+                </div>
+            </div>
+            <div class="max-w-lg mx-auto p-4 mb-4 text-sm text-white rounded-lg bg-sky-400 hidden myalert" role="alert">
+  <span class="font-bold font-none">Terimakasih!</span> Pesan anda sudah saya terima.
+</div>
+            <form name="contact-form">
+                <div class="lg:w-2/3 w-full mx-auto">
             <div class="w-full px-4 mb-8">
-              <label for="name" class="text-base text-sky-400 font-bold"
-                >Nama</label
-              >
-              <input
-                type="text"
-                id="name"
-                name="nama"
-                class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-sky-400 focus:ring-1 focus:border-sky-400"
-              />
+                <label for="name" class="text-base text-sky-400 font-bold ">Nama</label>
+                <input type="text" id="name" name="nama" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-sky-400 focus:ring-1 focus:border-sky-400"/>
             </div>
             <div class="w-full px-4 mb-8">
-              <label for="email" class="text-base text-sky-400 font-bold"
-                >Email</label
-              >
-              <input
-                type="text"
-                id="email"
-                name="email"
-                class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-sky-400 focus:ring-1 focus:border-sky-400"
-              />
+                <label for="email" class="text-base text-sky-400 font-bold ">Email</label>
+                <input type="text" id="email" name="email" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-sky-400 focus:ring-1 focus:border-sky-400"/>
             </div>
             <div class="w-full px-4 mb-8">
-              <label for="message" class="text-base text-sky-400 font-bold"
-                >Pesan</label
-              >
-              <textarea
-                type="email"
-                id="name"
-                name="pesan"
-                class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-sky-400 focus:ring-1 focus:border-sky-400 h-36"
-              ></textarea>
+                <label for="message" class="text-base text-sky-400 font-bold ">Pesan</label>
+                <textarea type="email" id="name" name="pesan" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-sky-400 focus:ring-1 focus:border-sky-400 h-36"></textarea>
             </div>
             <div class="w-full px-4">
-              <button
-                type="submit"
-                class="font-semibold text-white bg-sky-400 py-3 w-full rounded-full hover:opacity-80 hover:shadow-lg transition duration-600 btn-kirim"
-              >
-                Kirim
-              </button>
-              <button
-                type="button"
-                class="bg-sky-400 rounded-lg hidden items-center mt-3 px-4 py-1 text-white btn-loading"
-                disabled
-              >
-                <svg
-                  aria-hidden="true"
-                  class="w-8 h-8 text-gray-200 animate-spin dark:text-white fill-blue-600"
-                  viewBox="0 0 100 101"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
-                    fill="currentFill"
-                  />
-                </svg>
-                Processing...
-              </button>
+                <button type="submit" class=" font-semibold text-white bg-sky-400 py-3 w-full rounded-full hover:opacity-80 hover:shadow-lg transition duration-600 btn-kirim" >Kirim</button>
+                <button type="button" class="bg-sky-400 rounded-lg hidden items-center mt-3 px-4 py-1 text-white btn-loading" disabled>
+                    <svg aria-hidden="true" class="w-8 h-8 text-gray-200 animate-spin dark:text-white fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+                        <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+                    </svg>
+                    Processing...
+                  </button>              
             </div>
-          </div>
+        </div>
         </form>
-      </div>
+        </div>
     </section>
 
     <!-- footer -->
     <footer class="bg-sky-950 pt-24 pb-12">
-      <div class="w-full px-4">
-        <div class="max-w-lg mx-auto text-center mb-16">
-          <h4 class="font-semibold text-3xl text-sky-400 mb-2">Contact</h4>
-          <h2 class="text-slate-400 mb-4">mgustifauzan2794@gmail.com</h2>
+         <div class="w-full px-4">
+            <div class="max-w-lg mx-auto text-center mb-16">
+                <h4 class="font-semibold text-3xl text-sky-400 mb-2">Contact</h4>
+                <h2 class="text-slate-400 mb-4">mgustifauzan2794@gmail.com</h2>
+            </div>
         </div>
-      </div>
-      <div class="w-full pt-10 border-t border-slate-700"></div>
-      <div class="flex items-center justify-center">
-        <!-- ig -->
-        <a
-          href="https://www.instagram.com/muhaguzan?igsh=MTg1eGNwMTlnMDAzZA=="
-          target="_blank"
-          class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-white hover:border-blue-500 hover:bg-blue-500 hover:text-white"
-          ><svg
-            role="img"
-            width="20"
-            class="fill-current"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Instagram</title>
-            <path
-              d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
-            />
-          </svg>
-        </a>
+        <div class="w-full pt-10 border-t border-slate-700"></div>
+        <div class="flex items-center justify-center">
+            <!-- ig -->
+            <a href="https://www.instagram.com/muhaguzan?igsh=MTg1eGNwMTlnMDAzZA==" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-white hover:border-blue-500 hover:bg-blue-500 hover:text-white"><svg role="img"  width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+            </a>
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/in/muhammad-gusti-fauzan-b38793275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-white hover:border-blue-500 hover:bg-blue-500 hover:text-white"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"> xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <!-- Github -->
+            <a href="https://github.com/muhaguzan/portofolio" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-white hover:border-black hover:bg-blue-500 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="25" class="fill-current" viewBox="0 0 16 16" id="github"><path d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"></path></svg>
+            </a>
+        </div>
+        <h1 class="flex items-center justify-center font-sans text-slate-500 mt-3">Dibuat oleh muhaguzan</h1>
+        
 
-        <!-- Linkedin -->
-        <a
-          href="https://www.linkedin.com/in/muhammad-gusti-fauzan-b38793275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
-          class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-white hover:border-blue-500 hover:bg-blue-500 hover:text-white"
-          ><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24">
-            xmlns="http://www.w3.org/2000/svg">
-            <title>LinkedIn</title>
-            <path
-              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-            />
-          </svg>
-        </a>
-
-        <!-- Github -->
-        <a
-          href="https://github.com/muhaguzan/portofolio"
-          target="_blank"
-          class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-white hover:border-black hover:bg-blue-500 hover:text-white"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            class="fill-current"
-            viewBox="0 0 16 16"
-            id="github"
-          >
-            <path
-              d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"
-            ></path>
-          </svg>
-        </a>
-      </div>
-      <h1
-        class="flex items-center justify-center font-sans text-slate-500 mt-3"
-      >
-        Dibuat oleh muhaguzan
-      </h1>
     </footer>
 
     <script src="js/script.js"></script>
 
     <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbzwG7Qw0mlrvO9O8_tIygQ65lZb5fs8SVc3DB_tM6HoOmtuVAEDn4g0-pDN6qZ5xsm4SA/exec";
-      const form = document.forms["contact-form"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".myalert");
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzwG7Qw0mlrvO9O8_tIygQ65lZb5fs8SVc3DB_tM6HoOmtuVAEDn4g0-pDN6qZ5xsm4SA/exec'
+        const form = document.forms['contact-form']
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.myalert');
+        
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          btnLoading.classList.toggle('hidden');
+            btnKirim.classList.toggle('hidden');
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        btnLoading.classList.toggle("hidden");
-        btnKirim.classList.toggle("hidden");
-
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            btnLoading.classList.toggle("hidden");
-            btnKirim.classList.toggle("hidden");
-            myAlert.classList.toggle("hidden");
-            console.log("Success!", response);
-            form.reset();
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
-  </body>
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                btnLoading.classList.toggle('hidden');
+                btnKirim.classList.toggle('hidden');
+                myAlert.classList.toggle('hidden')
+                console.log('Success!', response)
+                form.reset();
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
 </html>
