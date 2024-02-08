@@ -6,6 +6,9 @@ module.exports = {
       padding: '16px',
     },
     extend: {
+      fontFamily: {
+        poppins: ['Poppins']
+      }
     },
   },
   plugins: [],

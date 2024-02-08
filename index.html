@@ -6,13 +6,34 @@
     <title>Muhaguzan</title>
     <link rel="icon" href="./img/mgf.jpg">
     <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
         }
+        
+        ::-webkit-scrollbar {
+        width: 18px;
+        }
+
+        ::-webkit-scrollbar-track {
+        background-color: rgb(209, 225, 231);
+        }
+
+        ::-webkit-scrollbar-thumb {
+        background-color: rgb(56 189 248);
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+        background-color: rgb(0, 91, 152);
+        }
     </style>
 </head>
-<body>
+<body class="font-poppins">
     
     <!-- Header start -->
     <header class="bg-transparent shadow-md absolute top-0 left-0 w-full flex items-center z-10">
@@ -94,6 +115,8 @@
     <!-- portofolio -->
     <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
         <div class="container">
+
+            <!-- Sertifikat -->
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-14">
                     <h4 class="font-semibold text-3xl text-sky-400 ">Portofolio</h4>
@@ -110,7 +133,7 @@
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="img/ukbi.png" alt="webinar" width="w-full">
+                        <img src="img/ukbi.png" alt="UKBI" width="w-full">
                     </div>
                     <h3 class="font-semibold text-black text-xl mt-5 mb-3 ">Ujian Kemahiran Berbahasa Indonesia</h3>
                     <p class="font-md text-base text-slate-600">Saat saya masih bersekolah di smk saya memilik kesempatan untuk ikut serta dalam ujian kemahiran berbahasa indonesia (UKBI) yang diselenggarakan oleh kemdikbud, Saat pelaksanaan ujian tersebut terdapat 4 materi yang diuji yaitu mendengarkan, menulis, membaca dan berbicara.
@@ -118,12 +141,22 @@
                 </div>
                 <div class="mb-5 p-4 md:w-1/2">
                     <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="img/lsp.jpg" alt="webinar" width="w-full">
+                        <img src="img/lsp.jpg" alt="LSP" width="w-full">
                     </div>
                     <h3 class="font-semibold text-black text-xl mt-5 mb-3 ">Ujian Sertifikasi Kompetensi</h3>
                     <p class="font-md text-base text-slate-600">Saat memasuki tahun akhir pelajaran saya mengikuti ujian LSP (Lembaga Sertifikasi Profesi) disitu saya diminta untuk memilih 2 bahan ujian yaitu ujian berbasis web ataupun berbasis dekstop lalu saya memilih ujian berbasis dekstop, Ujian berbasis desktop membuat suatu aplikasi stok barang dengan menggunakan Microsoft Virtual Studio dengan bahasa pemrograman Visual Basic. </p>
                 </div>
+                <div class="mb-5 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/dicoding.png" alt="Dicoding" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-black text-xl mt-5 mb-3 ">Belajar Dasar Pemrograman Web</h3>
+                    <p class="font-md text-base text-slate-600">Belajar dasar-dasar pemrograman web seperti belajar mengenai HTML dan CSS. Pelajaran CSS mencakup Flexbox dan float serta bagaimana caranya membuat web menjadi responsive. </p>
+                </div>
             </div>
+
+
+            <!-- Project -->
             <div class="w-full pt-10 border-t border-slate-500"></div>
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-14">
