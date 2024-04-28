@@ -11,7 +11,11 @@ window.onscroll = function() {
 }
 
 function sendMessage() {
-    const urlwa = `https://wa.me/6285775573114?text=Hallo Guzan, Nama saya ${nama.value}, Email saya ${email.value}, ${pesan.value}`;
+    const urlwa = `https://wa.me/6285775573114?text=Hallo Guzan
+    Nama saya *${nama.value}*
+    Email saya ${email.value}
+    *${pesan.value}*`;
+
    window.open(urlwa, "_blank");
 }
 
