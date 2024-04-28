@@ -10,28 +10,10 @@ window.onscroll = function() {
     }
 }
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxmmGLlxjEbhN6N0DjR1xbu5Xug7sUojorQH_vbzHZhQLS07WMX_lCkylK4ztI58P53/exec'
-        const form = document.forms['contact-form']
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const myAlert = document.querySelector('.myalert');
-        
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          btnLoading.classList.toggle('hidden');
-            btnKirim.classList.toggle('hidden');
-
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                btnLoading.classList.toggle('hidden');
-                btnKirim.classList.toggle('hidden');
-                myAlert.classList.toggle('hidden')
-                console.log('Success!', response)
-                form.reset();
-        })
-            .catch(error => console.error('Error!', error.message))
-        })
+function sendMessage() {
+    const urlwa = `https://wa.me/6285775573114?text=Hallo Guzan, Nama saya ${nama.value}, Email saya ${email.value}, ${pesan.value}`;
+   window.open(urlwa, "_blank");
+}
 
 // hamburger
 const hamburger = document.querySelector('#hamburger');
